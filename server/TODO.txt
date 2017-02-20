@@ -1,0 +1,1 @@
+add socket.io : https://docs.feathersjs.com/real-time/socket-io.html
