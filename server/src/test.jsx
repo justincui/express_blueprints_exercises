@@ -5,4 +5,4 @@ class Report extends Component{
         return <div> Error Report </div>;
     }
 }
-ReactDOMServer.renderToStaticMarkup(<Report/>);
+export default ReactDOMServer.renderToStaticMarkup(<Report/>);

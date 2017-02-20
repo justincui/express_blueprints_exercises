@@ -1,5 +1,9 @@
 'use strict';
 
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = require('react');
@@ -27,7 +31,7 @@ var Report = function (_Component) {
         return _possibleConstructorReturn(this, (Report.__proto__ || Object.getPrototypeOf(Report)).apply(this, arguments));
     }
 
-    _createClass(Report, [{
+    _createClass(Report, null, [{
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
@@ -41,5 +45,5 @@ var Report = function (_Component) {
     return Report;
 }(_react.Component);
 
-_server2.default.renderToStaticMarkup(_react2.default.createElement(Report, null));
+exports.default = _server2.default.renderToStaticMarkup(_react2.default.createElement(Report, null));
 //# sourceMappingURL=test.js.map
